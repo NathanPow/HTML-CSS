@@ -1,0 +1,63 @@
+*{  font-family: 'Times New Roman', Times, serif;}
+
+.bummer{ 
+ border: 10px black;
+ border-radius: 8px;
+ text-align: center;
+ align-content: center;
+ padding: 25px;
+ background-color: cadetblue;
+ width: 650px;
+ height: auto;
+ margin: 20px auto;
+ font-weight: bold;
+}
+
+h1{
+ border: 20px;
+ border-color: #000;
+ border-radius: 8px;
+ text-align: center;
+ align-content: center;
+ padding: 25px;
+ background-color: aquamarine;
+ width: 650px;
+ height: auto;
+ margin: 20px auto;
+ font-weight: 550;
+}
+
+.link{
+display: block;
+margin: 12px 15px;
+background-color: rgb(199, 245, 245);
+padding:10px;
+border: 20px;
+border-radius: 8px;
+width: 150px;
+font-size: 16px #000;
+font-weight: 400;
+text-align: center;
+
+}
+
+p, li{
+    width: 1000px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px;
+}
+  
+
+.index {
+    width: 800px;
+    height: auto;
+    margin: 20px 250px;
+    text-align: center;
+    border: 30px;
+    border-radius: 5px;
+    border-color: solid black;
+    padding: 10px;
+    
+}
