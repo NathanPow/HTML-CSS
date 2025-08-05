@@ -1,0 +1,269 @@
+
+body{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0%;
+    font-family: 'Roboto';
+}
+/*Header*/
+
+header{
+    width: 100%;
+    background-color: #1f2937;}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 14px;
+    flex-basis: 400px;
+    margin-left: 250px;
+}
+
+.Header-links{
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    color: #F9FAF8;
+    gap: 25px;
+    padding: 10px;
+    margin-right: 180px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Header-text{
+ display: flex;
+ flex-direction: column;
+ color: #F9FAF8;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 5px;
+ gap: 16px;
+ height: 200px;
+ margin-left: 250px;
+
+}
+
+button{
+    background-color: #306ed1;
+    font-size: 14px;
+    width: 90px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 0px;
+}
+
+.Text-1{
+    display: flex;
+    color: ghostwhite;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Roboto';
+    padding: 6px;
+    margin: 0px;
+    margin-left: -16px;
+}
+
+.Text-2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 0px;
+    color: #e5e7eb;
+    
+
+
+}
+.image-placeholder{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(157, 155, 155);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 8px;
+    margin: 8px;
+}
+
+.Header-text1{
+display: flex;
+flex-direction: column;
+justify-content: left;
+
+}
+
+/*BODY*/
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F9FAF8;
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 220px;
+    margin-bottom: 0px;
+    gap: 0px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: content-box;
+    border:  solid 3px rgb(115, 115, 243);
+    border-radius: 8px;
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.subtext{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-top: 110px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 120px;
+    justify-content: flex-start;
+}
+.header3{
+    display: flex;
+    font-weight: 900;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    margin: 0px;
+    padding: 36px;
+}
+
+
+/*Body2*/
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+
+.quote{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 36px;
+    color: #1f2937 Light italic;
+    margin: 8px;
+    background-color: #e5e7eb;
+
+
+}
+.salutation{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*Body 3*/
+
+.button2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container3{
+    display: flex;
+    background-color: #F9FAF8;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 0px;
+    justify-content: center;
+    background-image: url("images/pexels-simone-franzinelli-545340918-33242732.jpg");
+    background-size: cover;       /* Fills the entire element */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+}
+
+
+.bluebox{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #3882F6;
+    color: #ffffff;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 900px;
+
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 4px;
+}
+
+.bluetext{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 8px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 600;
+}
