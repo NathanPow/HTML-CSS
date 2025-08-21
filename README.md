@@ -18,7 +18,18 @@ This repository contains my completed projects from [The Odin Project](https://w
   - Flexbox layout
   - Responsive design
   - Interactive elements
-- **Technologies**: HTML5, CSS3, Flexbox
+- **Technologies**: HTML5, CSS3, 
+
+### 3. Counter App
+- **Description**: An interactive counter with increment, decrement, and reset functionality
+- **Features**: Color-changing display based on value
+- **Technologies**: HTML5, CSS3, JavaScript
+
+### 4. Rock Paper Scissors Game
+- **Description**: A console-based game against the computer
+- **Features**: 5-round gameplay, score tracking, input validation
+- **Technologies**: HTML5, JavaScript
+
 
 ## Image Credits
 - Recipe website images: [The Odin Project](https://www.theodinproject.com/)
